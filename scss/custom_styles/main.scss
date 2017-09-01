@@ -1,0 +1,27 @@
+.featured-work-thumbnails {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	@include clearfix;
+	@include breakpoint(small only){
+		flex-direction: column;
+	}
+	.image-hover-wrapper {
+		width: 30%;
+		@include breakpoint(small only){
+			width: 100%;
+			margin-top: 10px;
+		}
+	}
+}
+
+//image slider
+.slider {
+	height: 100%;
+	width: 100%;
+	@include clearfix;
+	img {
+		height: 500px;
+		width: 100%;
+	}
+}

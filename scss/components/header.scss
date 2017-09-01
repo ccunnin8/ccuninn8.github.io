@@ -1,0 +1,72 @@
+$portfolio-hero-header-background-color: white;
+
+.portfolio-hero-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: -moz-linear-gradient(top, rgba(44, 56, 64, 1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(44, 56, 64, 1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(44, 56, 64, 1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  h1 {
+    @include breakpoint(small only){
+      margin-top: 10px;
+    }
+  }
+  img {
+    border-radius: 30%;
+    box-shadow: 5px 5px 5px black;
+  }
+  margin-bottom: 25px;
+}
+
+#featured-work {
+  font-size: 4rem;
+  text-shadow: 1px 1px 1px blue;
+  font-weight: 600;
+}
+.portfolio-hero-header-description {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+  li {
+    flex: 1 0 200px;
+    @include breakpoint(small only){
+      flex: 0 0 0;
+    }
+    text-align: center;
+    padding: 0 1.25rem;
+    position: relative;
+    white-space: nowrap;
+
+    &:before {
+      content: "*";
+      position: absolute;
+      left: 0;
+      top: 5px;
+    }
+
+    &:first-child:before {
+      content: "";
+    }
+  }
+}
+
+.portfolio-hero-header-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+  li {
+    margin: 1.25rem;
+
+    a {
+      padding-left: 1.875rem;
+      padding-right: 1.875rem;
+    }
+  }
+}
+
