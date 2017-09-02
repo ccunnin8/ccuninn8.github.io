@@ -6,7 +6,14 @@ $(".slider").slick({dots: true,
   speed: 500,
   fade: true,
   cssEase: 'linear',
-  mobileFirst: true
-  });
+  mobileFirst: true,
+  arrows: false,
+  responsive: [{
+  	breakpoint: 1020,
+  	settings: {
+  		arrows: true
+  	}
+  }]
+});
 
 });

@@ -3,9 +3,10 @@
   background: $dark-gray;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 25px;
   .social-footer-icons {
+
     li:last-of-type {
       margin-right: 0;
     }
@@ -13,12 +14,12 @@
     .fa {
       font-size: 1.3rem;
       color: $white;
-
-      &:hover {
-        color: darken($dark-gray, 25%);
-        transition: color 0.3s ease-in;
-      }
     }
   }
+}
+
+footer svg:hover {
+  fill: white;
+  transition: color 0.3s ease-in;
 }
 

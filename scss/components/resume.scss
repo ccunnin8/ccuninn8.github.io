@@ -36,3 +36,30 @@ $portfolio-resume-spacing: 2rem;
   }
 }
 
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.badges-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  img {
+    height: 150px;
+    width: 150px;
+  }
+}
+.experience {
+  padding: 10px;
+  margin: 10px 0;
+  div {
+    padding: 20px;
+  }
+  div:nth-child(even){
+    background-color: #f9f3c7;
+  }
+  div:nth-child(odd){
+    background-color: #efeee6;
+  }
+}

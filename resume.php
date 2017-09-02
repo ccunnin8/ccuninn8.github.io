@@ -22,174 +22,68 @@
       <div id="topbar-responsive" class="topbar-responsive-links">
         <div class="top-bar-right">
           <ul class="menu simple vertical medium-horizontal">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
+            <li><a href="#">Resume</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
       </nav>
 
-    <!-- end navigation -->
-
-    <!-- header -->
-      <header class="portfolio-hero-header">
-        <img class="portfolio-hero-header-logo" src="img/IMG_1926edited.jpg"/>
-        <h1 class="portfolio-hero-header-h1">My Portfolio</h1>
-        <ul class="portfolio-hero-header-description">
-          <li>Front End</li>
-          <li>Wordpress</li>
-          <li>Back End</li>
-        </ul>
-        <br/>
-        <br/>
-      </header>
-      <!-- end header -->
-
-
-      <h1 id="featured-work">Featured Work</h1>
-
-      <div class="row">
-
-        <div class="slider">
-           
-            <div class="image"><a href="http://ccunnin8.github.io/accessibility_refactor/"><img src="img/accessible.png" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Website Reconfigured For Accesbility"></a></div>
-            <div class="image"><a href="https://ccunnin8.github.io/web_app_dashboard/"><img src="img/appdashboard.png" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Static Prototype of an Admin Dashboard"></a></div>
-            <div class="image"><a href="http://ccunnin8.github.io/pembroke-welsh-svg/"><img src="img/corgi.png" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Website Reconcigured to Use SVG Graphics With SVG Animation"></a></div>
-          
-      
+      <div class="portfolio-resume row">
+  <div class="large-6 columns">
+      <div class="portfolio-resume-wrapper">
+      <div class="icon-wrapper">
+        <img src="img/reportcard.png"><h1>Education</h1>
       </div>
-      <hr/>
+    </div>
+    <hr/>
+  </div>
 
-      <!-- thumbnails -->
-      <div class="projects-gallery">
-        <div class='featured-work-thumbnails' id="projects">
-          <div class="image-hover-wrapper">
-            
-            <a href="http://codepen.io/Corey8804/pen/XKJGJy"><img src="img/calculator.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>Javascript Calculator App on Codepen<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-
-
-          <div class="image-hover-wrapper">
-            
-            <a href="https://codepen.io/Corey8804/pen/rLqJpa"><img src="img/meteors.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>D3 Map Showing Meteor Strikes Around the Globe<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-
-          <div class="image-hover-wrapper">
-           
-            <a href="https://ccunnin8.github.io/performance/"><img src="img/performance.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>Website Maximized For Optimal Download Speeds<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-        </div>
-        <div class="featured-work-thumbnails">
-          <div class="image-hover-wrapper">
-            
-            <a href="https://ccunnin8.github.io/photo_gallery/"><img src="img/photogallery.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>Photogallery with Lightbox and Search Functions<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-
-          <div class="image-hover-wrapper">
-            
-            <a href="https://ccunnin8.github.io/online_registration_form/"><img src="img/online_form.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>Responsive Online Form<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-
-           <div class="image-hover-wrapper">
-            
-            <a href="http://codepen.io/Corey8804/pen/vKOjQR"><img src="img/pomodoro.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>Pomodoro Clock App<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-        </div>
-        
-        <div class="featured-work-thumbnails">
-
-            <div class="image-hover-wrapper">
-            
-            <a href="https://codepen.io/Corey8804/pen/kkYkGZ"><img src="img/gameoflife.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>React App Project Game of Life<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-
-          <div class="image-hover-wrapper">
-            
-            <a href="https://codepen.io/Corey8804/pen/GjKNkQ"><img src="img/leaderboard.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>React App that uses FreeCodeCamp API to Generate Leaderboard<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-
-          <div class="image-hover-wrapper">
-            
-            <a href="https://ccunnin8.github.io/video_player/"><img src="img/videoplayer.png">
-              <span class="image-hover-wrapper-reveal">
-                <p>HTML5 Videoplayer<br><i class="fa fa-link" aria-hidden="true"></i></p>
-              </span>
-            </a>
-          </div>
-
-        </div>
+  <div class="large-6 columns">
+    <div class="portfolio-resume-wrapper">
+      <div class="portfolio-resume-spacing">
+        <h5><strong>Treehouse</strong></h5>
+        <p>Front End Web Development Techdegree Program</p>
       </div>
-
-      <div class="about" id="about">
-        <h1> About </h1>
-        <hr/>
-        <div class="row">
-          <div class="large-4 column">
-            <h3>Who Am I?</h3>
-            <p>
-              My name is Corey Cunningham and I am an aspiring full stack web developer. Current, I work as a pharmacist. Half way through pharmacy school I began to look at other career options. I began Stanford's Opencourses and learned a little bit of Java and C++ as well as fundamental progamming concepts. At the beginning of 2016 I started Treehouse's Tech Degree program, although I had been using them previously for about 2 years.
-            </p>
-          </div>
-          <div class="large-4 column">
-            <h3>My Current Skills</h3>
-            <ul>
-              <li>
-                  HTML5
-              </li>
-              <li>
-                  CSS3, Sass, Bootstrap, Foundation
-              </li>
-               <li>
-                  Wordpress, WooCommerce, PHP
-                </li>
-                <li>
-                  Vanilla JavaScript, Jquery, NodeJS, React, MEAN Stack
-                </li>
-              </ul>
-          </div>
-          <div class="large-4 column">
-            <h3>What Am I looking For?</h3>
-            <p>
-               Allow me to create beautiful, responsive, custom Wordpress websites. I can help you create a blog, e-commerce site, or website for your business. 
-            </p>
-          </div>
-        </div>
+      <div class="portfolio-resume-spacing">
+        <h5><strong>FreeCode Camp</strong></h5>
+        <p>Front End Development Certificate</p>
+        <p>Data Visualization Certificate</p>
       </div>
+      <div class="portfolio-resume-spacing">
+        <h5><strong>University of Maryland Baltimore</strong></h5>
+        <p>PharmD</p>
+      </div>
+      <div class="portfolio-resume-spacing">
+        <h5><strong>George Mason University</strong></h5>
+        <p>BS in Biology</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="large-4 columns">
+    <div class="portfolio-resume-wrapper">
+      <h3 class="portfolio-resume-header">About Me</h3>
+      <p>My eclectic background and hippy upbringing makes me a rare commodity. I'd love to get together and talk over a non-GMO kale smoothie. Email or call me anytime!</p>
+      <div class="portfolio-resume-contact-info">
+        <a href="mailto:#"><i class="fa fa-envelope" aria-hidden="true"></i>someone@email.com</a>
+      </div>
+      <div class="portfolio-resume-contact-info">
+        <a href="tel:+14083410600"><i class="fa fa-phone" aria-hidden="true"></i></i>555.555.5555</a>
+      </div>
+    </div>
+  </div> -->
+
+</div>
+  <h1 class='text-center'>Experience</h1>
+
+
+
+
+
       <footer class="social-footer">
           <div class="social-footer-icons">
             <ul class="menu simple">
@@ -201,7 +95,7 @@
           </div>
       </footer>
 
-    </div>
+  </div>
       <script src="bower_components/jquery/dist/jquery.js"></script>
       <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
       <script src="bower_components/what-input/dist/what-input.js"></script>
